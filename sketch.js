@@ -52,9 +52,9 @@ function preload(){
   animAndar[2][2] = loadImage('walkL-3.png');
   
   //animação andar Direita
-  animAndar[3][0] = loadImage('image/walkR 1.png');
-  animAndar[3][1] = loadImage('image/walkR 2.png');
-  animAndar[3][2] = loadImage('image/walkR 3.png');
+  animAndar[3][0] = loadImage('walkR 1.png');
+  animAndar[3][1] = loadImage('walkR 2.png');
+  animAndar[3][2] = loadImage('walkR 3.png');
 }
 //so é chamado uma vez
 function setup() {
