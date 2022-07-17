@@ -18,43 +18,43 @@ var animAndar = [[],[],[],[]];
 
 function preload(){
   //fontes
-  fontMenu = loadFont('../font/Howard.ttf');
-  Flogo = loadFont('../font/Pieces of Eight.ttf');
+  fontMenu = loadFont('/../font/Howard.ttf');
+  Flogo = loadFont('/../font/Pieces of Eight.ttf');
   //imagens
-  imgfundo = loadImage('../image/background.png');
-  imgtuto = loadImage('../image/tutorial.png');
-  Esteregg = loadImage('../image/Esteregg.png');
-  gameimg = loadImage('../image/gameback.png');
-  credimg = loadImage('../image/credimg.png');
-  respImg = loadImage('../image/barril.png');
-  menuImg = loadImage('../image/menuImg.png');
-  layer1 = loadImage('../image/layer1.png')
-  btn1 = loadImage('../image/btn1.png')
+  imgfundo = loadImage('/../image/background.png');
+  imgtuto = loadImage('/../image/tutorial.png');
+  Esteregg = loadImage('/../image/Esteregg.png');
+  gameimg = loadImage('/../image/gameback.png');
+  credimg = loadImage('/../image/credimg.png');
+  respImg = loadImage('/../image/barril.png');
+  menuImg = loadImage('/../image/menuImg.png');
+  layer1 = loadImage('/../image/layer1.png')
+  btn1 = loadImage('/../image/btn1.png')
   //audio
-  aud[0] = loadSound('/aud/btn.mp3'); //botão
-  aud[1] = loadSound('/aud/backgoundSong.mp3'); //musica de fundo
+  aud[0] = loadSound('/../aud/btn.mp3'); //botão
+  aud[1] = loadSound('/../aud/backgoundSong.mp3'); //musica de fundo
   //animção idle
-  Idle[0] = loadImage('/image/idleDown.png');
-  Idle[1] = loadImage('/image/idleL.png');
-  Idle[2] = loadImage('/image/idleR.png');
-  Idle[3] = loadImage('/image/idleUp.png');
+  Idle[0] = loadImage('/../image/idleDown.png');
+  Idle[1] = loadImage('/../image/idleL.png');
+  Idle[2] = loadImage('/../image/idleR.png');
+  Idle[3] = loadImage('/../image/idleUp.png');
   //animação andar cima
-  animAndar[0][0] = loadImage('/image/walkUp-1.png');
-  animAndar[0][1] = loadImage('/image/walkup2.png');
-  animAndar[0][2] = loadImage('/image/walkUp-3.png');
+  animAndar[0][0] = loadImage('/../image/walkUp-1.png');
+  animAndar[0][1] = loadImage('/../image/walkup2.png');
+  animAndar[0][2] = loadImage('/../image/walkUp-3.png');
   //animação andar baixo
-  animAndar[1][0] = loadImage('/image/walkDown-1.png');
-  animAndar[1][1] = loadImage('/image/walkDown-2.png');
-  animAndar[1][2] = loadImage('/image/walkDown-3.png');
+  animAndar[1][0] = loadImage('/../image/walkDown-1.png');
+  animAndar[1][1] = loadImage('/../image/walkDown-2.png');
+  animAndar[1][2] = loadImage('/../image/walkDown-3.png');
   
-  animAndar[2][0] = loadImage('/image/walkL-1.png');
-  animAndar[2][1] = loadImage('/image/walkL.png');
-  animAndar[2][2] = loadImage('/image/walkL-3.png');
+  animAndar[2][0] = loadImage('/../image/walkL-1.png');
+  animAndar[2][1] = loadImage('/../image/walkL.png');
+  animAndar[2][2] = loadImage('/../image/walkL-3.png');
   
   //animação andar Direita
-  animAndar[3][0] = loadImage('/image/walkR 1.png');
-  animAndar[3][1] = loadImage('/image/walkR 2.png');
-  animAndar[3][2] = loadImage('/image/walkR 3.png');
+  animAndar[3][0] = loadImage('/../image/walkR 1.png');
+  animAndar[3][1] = loadImage('/../image/walkR 2.png');
+  animAndar[3][2] = loadImage('/../image/walkR 3.png');
 }
 //so é chamado uma vez
 function setup() {
