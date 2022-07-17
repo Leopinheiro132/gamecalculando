@@ -35,7 +35,7 @@ function preload(){
   aud[1] = loadSound('backgoundSong.mp3'); //musica de fundo
   //animção idle
   Idle[0] = loadImage('idleDown.png');
-  Idle[1] = loadImage('dleL.png');
+  Idle[1] = loadImage('idleL.png');
   Idle[2] = loadImage('idleR.png');
   Idle[3] = loadImage('idleUp.png');
   //animação andar cima
