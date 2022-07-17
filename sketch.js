@@ -18,18 +18,18 @@ var animAndar = [[],[],[],[]];
 
 function preload(){
   //fontes
-  fontMenu = loadFont('/font/Howard.ttf');
-  Flogo = loadFont('/font/Pieces of Eight.ttf');
+  fontMenu = loadFont('../font/Howard.ttf');
+  Flogo = loadFont('../font/Pieces of Eight.ttf');
   //imagens
-  imgfundo = loadImage('/image/background.png');
-  imgtuto = loadImage('/image/tutorial.png');
-  Esteregg = loadImage('/image/Esteregg.png');
-  gameimg = loadImage('/image/gameback.png');
-  credimg = loadImage('/image/credimg.png');
-  respImg = loadImage('/image/barril.png');
-  menuImg = loadImage('/image/menuImg.png');
-  layer1 = loadImage('/image/layer1.png')
-  btn1 = loadImage('/image/btn1.png')
+  imgfundo = loadImage('../image/background.png');
+  imgtuto = loadImage('../image/tutorial.png');
+  Esteregg = loadImage('../image/Esteregg.png');
+  gameimg = loadImage('../image/gameback.png');
+  credimg = loadImage('../image/credimg.png');
+  respImg = loadImage('../image/barril.png');
+  menuImg = loadImage('../image/menuImg.png');
+  layer1 = loadImage('../image/layer1.png')
+  btn1 = loadImage('../image/btn1.png')
   //audio
   aud[0] = loadSound('/aud/btn.mp3'); //botão
   aud[1] = loadSound('/aud/backgoundSong.mp3'); //musica de fundo
