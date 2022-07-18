@@ -50,7 +50,7 @@ function Game(){
     textSize(20);
     text("Ajude a carregar o navio\n com os barris corretos",170, 40);
     if(Accont>5){
-      text("Hora de mudar de faser",170,85);
+      text("Hora de mudar de fase",170,85);
     }
     textSize(12);
     fill(0);
