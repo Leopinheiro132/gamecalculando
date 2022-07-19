@@ -1,0 +1,15 @@
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-shadow: 5px 2px #23bebe;
+}
+body{
+    background-color: #25dfdf;
+}
+.center{
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+}
