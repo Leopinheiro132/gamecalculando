@@ -57,19 +57,19 @@ function Game(){
   
   ////////////////CONTROLE PLAYER//////////
     if((keyIsDown(UP_ARROW)||keyIsDown(87)) && player.Y>0) {
-      player.Y -= 2.5;
+      player.Y -= 3;
       player.Active = false;
     }
     if((keyIsDown(DOWN_ARROW)||keyIsDown(83)) && player.Y<490) {
-      player.Y += 2.5;
+      player.Y += 3;
       player.Active = false;
     }
     if((keyIsDown(LEFT_ARROW)||keyIsDown(65))&& player.X>0) {
-      player.X -= 2.5;
+      player.X -= 3;
       player.Active = false;
     }
     if((keyIsDown(RIGHT_ARROW)||keyIsDown(68))&& player.X<595) {
-      player.X += 2.5;
+      player.X += 3;
       player.Active = false;
     }
 ////////////////////////////////////////
