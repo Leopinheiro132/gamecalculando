@@ -6,8 +6,11 @@ h1{
     text-shadow: 5px 2px #23bebe;
 }
 body{
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(37,223,223,0.8043417195979954) 100%);
+    background: rgb(37,223,223);
+    background: -moz-radial-gradient(circle, rgba(37,223,223,0.9191876579733456) 52%, rgba(2,0,36,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(37,223,223,0.9191876579733456) 52%, rgba(2,0,36,1) 100%);
+    background: radial-gradient(circle, rgba(37,223,223,0.9191876579733456) 52%, rgba(2,0,36,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#25dfdf",endColorstr="#020024",GradientType=1); 
     /*background-color: #25dfdf;*/
 }
 .center{
